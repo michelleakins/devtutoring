@@ -1,0 +1,70 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle's Animal Shop</title>
+</head>
+<body>
+    
+    <!--table set up-->    
+    <h1 style="text-align: center;" > Welcome to the Animal Shop!</h1> <br>
+    <h3> Enter your information</h3>
+     
+    <label for="name">Name :</label>
+    <input type="text" name="name" max="12" placeholder="enter name here" required><br>
+    <br>
+    <label for="email">Email :</label>
+    <input type="Email" name="email" max="12" placeholder="enter email here" required><br>
+    <br>
+    <label for="password">Password :</label>
+    <input type="password" name="password" max="12" placeholder="password" required><br>
+    <br>
+    <label for="date">D.O.B :</label>
+    <input type="date"> <br>
+    <br><br>
+    <button type="submit"> Log in </button> <br><br>
+    <u>Create an account</u>
+    <br><br><br><br>
+
+    <!--choose your animals-->
+    <h2 style= "text-align: center;" >Choose your animals</h2>
+    <table>
+        <tr>
+            <th> </th>
+            <th> Animal</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox"> </td>
+            <td>Cow</td>
+            <td>$1000</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox"> </td>
+            <td>Sheep</td>
+            <td>$500</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Alpaca</td>
+            <td>$950</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Pig</td>
+            <td>$300</td>
+        </tr>
+    </table>
+
+    
+    <h2 style="text-align: center;" > Animal Delivery Method</h2>
+    <select name="Animal Delivery Method" >
+        <option value="Delivery">Delivery</option>
+        <option value="Pick-up">Pick-up</option>
+        <option value="Shipping">Shipping</option>
+    </select>
+    <br><br>
+    <button type="button", style="background-color: rgb(178, 178, 235);"> Proceed to Payment ></button>
+</body>
+</html>
