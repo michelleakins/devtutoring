@@ -1,0 +1,37 @@
+table {
+    background-color: rgb(226, 166, 250);
+    padding: 20px;
+    box-shadow: 0px 10px 5px;
+    border-radius: 15px;
+    color:rgb(190, 18, 243);
+    position: (width-screen)-90px;
+}
+
+p {
+    background-color: rgb(226, 166, 250);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(190, 18, 243);
+}
+
+article, label, h1, h3 {
+    color:rgb(89, 102, 250);
+    font-weight: bold;
+}
+
+button {
+    background-color:rgb(226, 166, 250);
+    border-color: rgb(190, 18, 243);
+    color: rgb(255, 253, 208);
+    padding: 15px;
+    position: center;
+    border-radius: 20px;
+    display: flexbox;
+    font-weight: 600;
+}
+
+select {
+    color: blue;
+    background-color: rgb(135, 178, 254);
+}

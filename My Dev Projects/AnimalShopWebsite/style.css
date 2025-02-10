@@ -1,0 +1,96 @@
+body{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif; 
+}
+
+.navbar{
+    width: 100%;
+    height: 69px; 
+    padding-bottom: 20px;
+}
+
+.navbar-container{
+    display:flex;
+    align-items: center;
+    background-color: #ffffffa3;
+    color: rgb(139, 67, 175);
+    padding-left:16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.searchbox-container input{
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline:none;
+    border-color: rgb(139, 67, 175);
+    border-style: groove;
+    border-radius: 12px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.company-name {
+    width: 60px;
+    height: 40px;
+}
+
+.logo-and-name {
+    width: 2500px;
+    display: flex;
+}
+    
+.nav-links{
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    }
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(139, 67, 175);
+    }
+
+.nav-links li a:hover{
+    color:rgb(168, 83, 253);
+    transition:0.5s;
+    }
+
+.space{
+    border-style:groove;
+    border-width: 3px;
+    border-color: rgb(244, 89, 226);
+    }
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    }
+
+.Michelle {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    }
+
+.welcome-container {
+    background-color: #dbb4e4;
+    align-self: center;
+    width: 80%;
+    height: 750px;
+    border-radius: 25px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: rgb(244, 89, 226);
+}
